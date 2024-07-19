@@ -1,11 +1,11 @@
 // Website you intended to retrieve for users.
-const upstream = 'www.google.com'
+const upstream = 'www.youtube.com'
 
 // Custom pathname for the upstream website.
 const upstream_path = '/'
 
 // Website you intended to retrieve for users using mobile devices.
-const upstream_mobile = 'www.google.com'
+const upstream_mobile = 'www.youtube.com'
 
 // Countries and regions where you wish to suspend your service.
 const blocked_region = ['AF', 'IR', 'KP', 'CU', 'VE', 'SY']
@@ -22,7 +22,7 @@ const disable_cache = false
 // Replace texts.
 const replace_dict = {
     '$upstream': '$custom_domain',
-    '//google.com': ''
+    '//youtube.com': ''
 }
 
 addEventListener('fetch', event => {
